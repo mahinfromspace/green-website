@@ -1,3 +1,8 @@
+* {
+    margin: 0;
+    padding: 0
+}
+
 .contact-bar {
     height: 3.125rem;
     width: 100%;
@@ -132,6 +137,80 @@
 .goals {
     height: 80vh;
     width: 100%;
-    background-color: red;
+    background-color: white;
     padding-top: 6.25rem
+}
+
+.goal-wrap {
+    background-color: #fff;
+    width: 100%;
+    /* height: 60vh; */
+    /* display: flex; */
+    /* justify-content: center; */
+    /* align-items: center; */
+}
+
+.goals-text {
+    background-color: #ffff;
+    height: 100%;
+    width: 100%;
+}
+
+.goals-text h4 {
+    font-size: 1.25rem;
+    font-weight: 300;
+    font-family: "Montserrat", sans-serif
+}
+
+.goal-line {
+    height: 0.10rem;
+    width: 6rem;
+    background-color: #0a3b02;
+}
+
+.goals-text h2 {
+    font-size: 2.625rem;
+    line-height: 2.625rem;
+    margin: 1.2rem 0;
+    font-family: "Montserrat";
+    font-weight: 700;
+    color: #555555;
+    letter-spacing: 0.1rem;
+}
+
+.goals-points ul {
+    list-style-type: none;
+    padding: 0
+}
+
+.goals-points ul li {
+    margin-bottom: 0.5rem
+}
+
+.goals-points ul li img {
+    width: 1rem;
+    margin-right: 1em
+}
+
+.goals-text {
+    height: 70%;
+    width: 80%;
+}
+
+.goal-wrap {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.goal-img-wrap {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.goal-img-wrap img {
+    width: 80%;
 }
