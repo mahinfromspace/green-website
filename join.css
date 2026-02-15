@@ -1,0 +1,48 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.form-section {
+    background-color: yellow;
+    height: 90vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.form-wrap {
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+    justify-content: center;
+    align-items: center;
+    background-color: green;
+    padding: 4rem;
+    border-radius: 25px
+}
+
+.form-wrap h2 {
+    color: white
+}
+
+.form-wrap h4 {
+    color: white;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+.form-wrap form {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem
+}
+
+.form-wrap form input {
+    padding: 0.5rem 2rem;
+    border: none;
+    outline: none;
+    border-radius: 0.9rem;
+}
+
+#loginBtn {}
